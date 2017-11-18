@@ -3,7 +3,7 @@ var GAME_LEVELS = [
    "             s                  s                    s                          ",
    "                                             mm                                 ",
    "     s     yyyyy       s                    mm                              s   ",
-   "         yyyyyyyyy             s              mm                    o            ",
+   "         yyyyyyyyy             s             mm                    o            ",
    "                yyyy                    s            yyyyy                      ",
    "            s                                       yyyyyyyy                    ",
    "                                                               xxx!!!xxx        ",
