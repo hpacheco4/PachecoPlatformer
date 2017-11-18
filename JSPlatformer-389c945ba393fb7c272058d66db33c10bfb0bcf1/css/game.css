@@ -8,14 +8,22 @@
 .moon		   { background: rgb(255 ,255 ,224); }
 
 .actor  { position: absolute;  }
-.player { background: rgb(64, 64, 64); }
 .coin   { background: rgb(241, 229, 89); }
+.player { background: rgb(64, 64, 64); }
 .star	{ background: rgb(255, 255, 153); }
 .spike  { background: green; }
+.gem    { background: rgb(255, 218, 185); }
 
 .game {
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
   position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
 }
